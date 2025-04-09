@@ -1,0 +1,32 @@
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.movies {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.movie {
+    border: 1px solid green;
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.movie:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+img {
+
+    width: 200px;
+    border-radius: 15px;
+}
